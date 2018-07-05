@@ -17,8 +17,8 @@ Route::post('/login','User_94117Controller@Login');
 Route::get('/showusers', 'User_94117Controller@ShowUsers');
 
 //Session 
-Route::post('/save_session','SessionController@Save');
-Route::get('/show_session','SessionController@Session');
+Route::post('/save_session','session_94117@save');
+Route::get('/show_session','session_94117@Session');
 
 //Instructors
 Route::post('/SaveInstructor','instructorController@saveInstructor');
