@@ -3,7 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\instructors_94117
+use App\instructors_94117;
+use DB;
 
 class instructorController extends Controller
 {
