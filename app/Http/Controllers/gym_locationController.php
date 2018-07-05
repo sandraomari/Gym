@@ -6,11 +6,6 @@ use Illuminate\Http\Request;
 use App\gym_locations_94117;
 use DB;
 
-$table->increments('id');
-            $table->string('gym_name');
-            $table->string('location');
-            $table->timestamps();
-
 class gym_locationController extends Controller
 {
     public function SaveGym(Request $req)
