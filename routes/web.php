@@ -12,13 +12,13 @@
 */
 
 //User
-Route::post('/register','User_94117Controller@Register');
-Route::post('/login','User_94117Controller@Login');
-Route::get('/showusers', 'User_94117Controller@ShowUsers');
+Route::post('/register','userController@Register');
+Route::post('/login','userController@Login');
+Route::get('/showusers', 'userController@ShowUsers');
 
 //Session 
-Route::post('/save_session','session_94117@save');
-Route::get('/show_session','session_94117@Session');
+Route::post('/save_session','sessionController@save');
+Route::get('/show_session','sessionController@Session');
 
 //Instructors
 Route::post('/SaveInstructor','instructorController@saveInstructor');

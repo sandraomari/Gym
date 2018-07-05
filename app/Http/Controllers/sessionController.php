@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use DB;
 use App\session_94117;
 
-class session_94117Controller extends Controller
+class sessionController extends Controller
 {
    public function Save(Request $req)
     {
@@ -32,3 +32,4 @@ class session_94117Controller extends Controller
 
     }
 }
+

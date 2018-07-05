@@ -8,7 +8,7 @@ use App\users_94117;
 use Illuminate\Support\Facades\Hash;
 use App\Http\Resources\UserResource;
 
-class User_94117Controller extends Controller
+class userController extends Controller
 {
     public function Register(Request $req){
     	      
@@ -48,7 +48,5 @@ class User_94117Controller extends Controller
         $data = users_94117::all();
 
         return $data->toJson();
-    }
-
-    
+    }   
 }
