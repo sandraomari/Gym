@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use DB;
 use App\users_94117;
 use Illuminate\Support\Facades\Hash;
+use App\Http\Resources\UserResource;
 
 class User_94117Controller extends Controller
 {
